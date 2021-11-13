@@ -1,6 +1,7 @@
 .menu-panel {
     display: flex;
     justify-content: space-evenly;
+    flex-flow: row wrap;
 }
 
 .menu-items, .cart-items {
@@ -8,10 +9,17 @@
     padding: 2%;
     border: 5px solid black;
     border-radius: 20px;
-    margin-top: 5%;
     text-align: center;
     height: fit-content;
+    flex-basis: 40%;
+    margin: 5%;
 }
+
+@media(max-width: 1073px) {
+    .menu-items, .cart-items {
+     flex-basis: 100%;
+   }
+ }
 
 .menu-item, .cart-item {
     display: flex;
@@ -20,7 +28,7 @@
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 

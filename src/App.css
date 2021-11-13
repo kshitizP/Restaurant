@@ -7,33 +7,8 @@
 }
 
 
-nav {
-  display: flex;
-  width: 100%;
-  z-index: 20;
-  height: 80px;
-  background: rgb(0,0,0);
-}
-
 p {
   margin: auto;
-}
-nav ul {
-  list-style: none;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.nav li a {
-  text-decoration: none!important;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #fff;
-  cursor: pointer;
 }
 
 .welcome-text {
@@ -47,7 +22,7 @@ nav ul {
   text-align: center;
   position: relative;
   font-weight: bold;
-  top: 25%;
+  top: 30%;
   margin: 0;
 }
 
@@ -62,7 +37,7 @@ nav ul {
 }
 
 .down {
-  transform: translateY(-150%) rotate(135deg);
+  transform: translateY(-100%) rotate(135deg);
 }
 
 .down-button {
